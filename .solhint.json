@@ -1,0 +1,25 @@
+{
+  "extends": "solhint:recommended",
+  "rules": {
+    "compiler-version": [
+      "error",
+      "^0.8.19"
+    ],
+    "func-visibility": [
+      "warn",
+      {
+        "ignoreConstructors": true
+      }
+    ],
+    "no-console": "warn",
+    "no-global-import": "off",
+    "var-name-mixedcase": "off",
+    "no-empty-blocks": "off",
+    "reason-string": "off",
+    "not-rely-on-time": "off",
+    "max-states-count": [
+      "warn",
+      20
+    ]
+  }
+}
